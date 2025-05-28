@@ -1071,19 +1071,6 @@ for (int i = 0; i < NumBESS; ++i)
 //		O_LoadShed3[t] = cplex.getValue(P_LoadShed3[t]);
 //	}
 //}
-///* ---------- 5. Bắt ngoại lệ ---------- */
-//catch (const IloException& e)
-//{
-//	std::cerr << "CPLEX error : " << e.getMessage() << '\n';
-//}
-//catch (const std::exception& e)
-//{
-//	std::cerr << "Error       : " << e.what() << '\n';
-//}
-//catch (...)
-//{
-//	std::cerr << "Unknown error\n";
-//}
 
 //// ----------------------- OUTPUT DATA to CSV -------------------
 //{
